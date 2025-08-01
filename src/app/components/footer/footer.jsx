@@ -1,6 +1,11 @@
-"use client";
-import "./footer.css";
-import { Github, Linkedin, Instagram, Mail } from "lucide-react";
+import {
+  Github,
+  Linkedin,
+  Instagram,
+  Mail,
+  Link as LinkIcon,
+} from "lucide-react";
+import Link from "next/link";
 export default function Footer() {
   return (
     <>
@@ -20,30 +25,33 @@ export default function Footer() {
             <h2 className="text-xl font-bold mb-4">Quick Links</h2>
             <ul className="space-y-2 text-sm text-white/80">
               <li>
-                <a href="#home" className="hover:text-purple-400 transition">
+                <Link href="#home" className="hover:text-purple-400 transition">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#portfolio"
                   className="hover:text-purple-400 transition"
                 >
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#experience"
                   className="hover:text-purple-400 transition"
                 >
                   Experience
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#contact" className="hover:text-purple-400 transition">
+                <Link
+                  href="#contact"
+                  className="hover:text-purple-400 transition"
+                >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -54,21 +62,21 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-white/80">
               <li>
                 Email:{" "}
-                <a
+                <Link
                   href="mailto:ahmed.elazbawy200@gmail.com"
                   className="hover:text-purple-400"
                 >
                   ahmed.elazbawy200@gmail.com
-                </a>
+                </Link>
               </li>
               <li>
                 Phone:{" "}
-                <a
+                <Link
                   href="https://wa.me/201555989244"
                   className="hover:text-purple-400"
                 >
                   +20 155 598 9244
-                </a>
+                </Link>
               </li>
               <li>Location: Egypt</li>
             </ul>
@@ -78,37 +86,38 @@ export default function Footer() {
           <div>
             <h2 className="text-xl font-bold mb-4">Follow Me</h2>
             <div className="flex space-x-4">
-              <a
+              <Link
                 href="https://github.com/ELAZBAWY"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Github className="w-5 h-5 hover:text-purple-400" />
-              </a>
-              <a
-                href="https://linkedin.com/in/ahmed-elazbawy"
+              </Link>
+              <Link
+                href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BThOEszh0QWitoDwQGIRl%2BQ%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Linkedin className="w-5 h-5 hover:text-blue-400" />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://www.instagram.com/a7med.elazbawy/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Instagram className="w-5 h-5 hover:text-pink-400" />
-              </a>
-              <a href="mailto:ahmed.elazbawy200@gmail.com">
+              </Link>
+              <Link href="mailto:ahmed.elazbawy200@gmail.com">
                 <Mail className="w-5 h-5 hover:text-red-400" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
 
         {/* Bottom */}
         <div className="border-t border-white/10 text-center text-sm py-4 text-white/60">
-          &copy; {new Date().getFullYear()} Ahmed Elazbawy. All rights reserved.
+          &copy; {new Date().getFullYear()} Ahmed Alazzbaawy. All rights
+          reserved.
         </div>
       </section>
     </>

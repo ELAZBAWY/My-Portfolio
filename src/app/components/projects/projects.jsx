@@ -1,7 +1,6 @@
 // components/Header.tsx
-"use client";
-import "./projects.css";
 import { Github, Eye } from "lucide-react";
+import Link from "next/link";
 
 import Image from "next/image";
 const projects = [
@@ -24,9 +23,9 @@ const projects = [
     live: "https://elazbawy.github.io/Skills/",
   },
   {
-    title: "Shramp-Zone",
+    title: "Shrimp-Zone",
     description:
-      "Shramp Zone is a web-based restaurant platform designed to simulate an online food ordering experience. Users can browse a rich menu, add items to their cart, and manage their orders smoothly. The app focuses on user experience, speed, and clean design to reflect the brand of a high-end seafood restaurant.",
+      "Shrimp Zone is a web-based restaurant platform designed to simulate an online food ordering experience. Users can browse a rich menu, add items to their cart, and manage their orders smoothly. The app focuses on user experience, speed, and clean design to reflect the brand of a high-end seafood restaurant.",
     tags: ["HTML", "CSS", "JS", "Bootstrap", "React.js"],
     image: "/Sramp-Zone.png",
     github: "https://github.com/ELAZBAWY/-shramp-zone.git",
@@ -107,18 +106,18 @@ export default function Project() {
                   )}
                 </div>
                 <div className="flex gap-3">
-                  <a
+                  <Link
                     href={project.github}
                     className="text-sm flex items-center gap-1 px-4 py-1.5 rounded-full bg-purple-500 text-white hover:bg-purple-600 transition"
                   >
                     Github <Github className="w-4 h-4" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href={project.live}
                     className="text-sm flex items-center gap-1 px-4 py-1.5 rounded-full bg-purple-500 text-white hover:bg-purple-600 transition"
                   >
                     Live Preview <Eye className="w-4 h-4" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}

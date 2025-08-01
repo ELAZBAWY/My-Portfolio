@@ -1,8 +1,5 @@
-"use client";
-import "./hero.css";
-import { Gideon_Roman } from "next/font/google";
-// components/Hero.jsx
 import Image from "next/image";
+import Link from "next/link";
 import {
   Github,
   Linkedin,
@@ -46,49 +43,49 @@ export default function Hero() {
 
           {/* Buttons */}
           <div className="flex justify-center gap-7 mb-6 flex-wrap">
-            <a
+            <Link
               href="/Resume.pdf"
               download
               className="text-[18px] font-bold text-[#0070c9] transition duration-500 px-4 py-2 rounded-full flex items-center gap-2 shadow hover:shadow-[0_0_20px_#0070c9] border border-transparent hover:border-[#0070c9]"
             >
               <Download className="w-4 h-4" />
               Download Resume
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://wa.me/201555989244"
               className="contactbtn text-[18px] font-bold transition duration-500 px-4 py-2 rounded-full flex items-center gap-2 border border-white hover:bg-[#1e2939] hover:text-white hover:shadow-[0_0_30px_#1e2939]"
             >
               <Phone className="w-4 h-4" />
-              Contact Me
-            </a>
+              Contact With Me
+            </Link>
           </div>
 
           {/* Social Icons */}
           <div className="flex justify-center gap-5 mb-6">
-            <a
+            <Link
               href="https://github.com/ELAZBAWY"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Github className="w-5 h-5 hover:text-black" />
-            </a>
-            <a
-              href="www.linkedin.com/in/ahmed-alazzbaawy-58868726a"
+            </Link>
+            <Link
+              href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BThOEszh0QWitoDwQGIRl%2BQ%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Linkedin className="w-5 h-5 hover:text-blue-300" />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.instagram.com/a7med.elazbawy/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Instagram className="w-5 h-5 hover:text-pink-300" />
-            </a>
-            <a href="mailto:ahmed.elazbawy200@gmail.com">
+            </Link>
+            <Link href="mailto:ahmed.elazbawy200@gmail.com">
               <Mail className="w-5 h-5 hover:text-red-400" />
-            </a>
+            </Link>
           </div>
 
           {/* Skills (links) */}
