@@ -17,4 +17,4 @@ npm run build and npm start
 
 Linting via ESLint integration in Next.js environment.
 
-Live Preview ("")
+Live Preview ("https://my-portfolio-plum-three-48.vercel.app/")
