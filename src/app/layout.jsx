@@ -5,6 +5,8 @@ import Hero from "./components/hero/hero";
 import Project from "./components/projects/projects";
 import Footer from "./components/footer/footer";
 import NetworkBackground from "./StarfieldBackground";
+import Certificate from "./components/certificate/Certificate";
+import Experience from "./components/experience/experience";
 import { icons } from "lucide-react";
 
 const geistSans = Geist({
@@ -35,6 +37,8 @@ export default function RootLayout({ children }) {
         <Navbar />
         <Hero />
         <Project />
+        <Certificate />
+        <Experience />
         <Footer />
         {children}
       </body>

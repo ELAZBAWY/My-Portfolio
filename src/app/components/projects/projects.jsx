@@ -59,7 +59,7 @@ export default function Project() {
             {projects.map((project, i) => (
               <div
                 key={i}
-                className="bg-white/5 backdrop-blur-md rounded-xl p-6 text-left shadow-xl hover:shadow-purple-500/30 transition liquid-glass"
+                className="bg-white/5 backdrop-blur-md rounded-xl p-6 text-left shadow-xl hover:shadow-purple-500/30 hover:scale-105 duration-300 transition-all liquid-glass"
               >
                 <Image
                   alt="Dashboard"

@@ -17,7 +17,7 @@ export default function Hero() {
         className="mt-[50px] min-h-screen bg-gradient-to-tr bg-opacity-30 flex items-center justify-center px-4"
       >
         {/* Hero Section */}
-        <div className="hero liquid-glass bg-white/10 backdrop-blur-md min-h-[700px] rounded-2xl pt-16 max-w-7xl w-full text-center text-white shadow-[0_0_30px_rgba(255,255,255,0.1)]">
+        <div className="hero liquid-glass bg-white/5 backdrop-blur-sm  min-h-[700px] rounded-2xl pt-16 max-w-7xl w-full text-center text-white shadow-[0_0_30px_rgba(255,255,255,0.1)]">
           {/* Profile */}
           <div className="flex justify-center mb-6">
             <Image
@@ -89,26 +89,26 @@ export default function Hero() {
           </div>
 
           {/* Skills (links) */}
-          <div className="links w-full flex flex-wrap justify-center gap-3 text-sm sm:text-base text-white/90 mt-8 p-10 rounded-xl bg-white/5 backdrop-blur-sm">
-            <span className="React px-4 py-1 rounded-full bg-cyan-600/70 hover:shadow-[0_0_30px_#0092b8] transition">
+          <div className="links w-full flex flex-wrap  justify-center bg-white/10 gap-3 text-sm sm:text-base text-white/90 mt-8 p-10 rounded-xl  ">
+            <span className="React px-4 py-1 rounded-full bg-white/10 backdrop-blur-md hover:shadow-[0_0_30px_#0092b8] transition">
               React.js
             </span>
-            <span className="Next px-4 py-1 rounded-full bg-gray-800/70 hover:shadow-[0_0_30px_#1e2939] transition">
+            <span className="Next px-4 py-1 rounded-full bg-white/10 backdrop-blur-md hover:shadow-[0_0_30px_#1e2939] transition">
               Next.js
             </span>
-            <span className="Tailwind px-4 py-1 rounded-full bg-sky-500/70 hover:shadow-[0_0_30px_#00a6f4] transition">
+            <span className="Tailwind px-4 py-1 rounded-full bg-white/10 backdrop-blur-md hover:shadow-[0_0_30px_#00a6f4] transition">
               Tailwind
             </span>
-            <span className="TypeScript px-4 py-1 rounded-full bg-blue-700/70 hover:shadow-[0_0_30px_#1447e6] transition">
+            <span className="TypeScript px-4 py-1 rounded-full bg-white/10 backdrop-blur-md hover:shadow-[0_0_30px_#1447e6] transition">
               TypeScript
             </span>
-            <span className="HTML px-4 py-1 rounded-full bg-orange-500/70 hover:shadow-[0_0_30px_#ff6900] transition">
+            <span className="HTML px-4 py-1 rounded-full bg-white/10 backdrop-blur-md hover:shadow-[0_0_30px_#ff6900] transition">
               HTML
             </span>
-            <span className="CSS px-4 py-1 rounded-full bg-blue-500/70 hover:shadow-[0_0_30px_#2b7fff] transition">
+            <span className="CSS px-4 py-1 rounded-full bg-white/10 backdrop-blur-md hover:shadow-[0_0_30px_#2b7fff] transition">
               CSS
             </span>
-            <span className="JavaScript px-4 py-1 rounded-full bg-yellow-400/70 text-black hover:shadow-[0_0_30px_#fdc700] transition">
+            <span className="JavaScript px-4 py-1 rounded-full bg-white/10 backdrop-blur-md text-white/90 hover:shadow-[0_0_30px_#fdc700] transition">
               JavaScript
             </span>
           </div>

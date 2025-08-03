@@ -35,6 +35,18 @@ export default function Header() {
           >
             Contact
           </Link>
+          <Link
+            href="#experience"
+            className="hover:underline hover:text-white/90 transition"
+          >
+            Experience
+          </Link>
+          <Link
+            href="#Certificate"
+            className="hover:underline hover:text-white/90 transition"
+          >
+            Certificate
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}
