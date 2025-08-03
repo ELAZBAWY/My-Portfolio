@@ -28,7 +28,10 @@ export default function Certificate() {
         </div>
 
         {/* Certificate Card */}
-        <div className="bg-white/10 backdrop-blur-sm rounded-lg sm:rounded-xl md:rounded-2xl p-3 sm:p-4 md:p-6 lg:p-8 border border-white/20 shadow-2xl transition-all duration-300 hover:scale-[1.02] hover:shadow-3xl">
+        <div
+          className="bg-white/10 backdrop-blur-sm rounded-lg sm:rounded-xl md:rounded-2xl p-3 sm:p-4 md:p-6 lg:p-8 border border-white/20 shadow-2xl transition-all duration-300  hover:shadow-3xl"
+          data-aos="fade-left"
+        >
           <div className="flex flex-col lg:flex-row gap-4 sm:gap-6 md:gap-8 lg:gap-10">
             {/* Certificate Image */}
             <div className="lg:w-2/5 w-full">

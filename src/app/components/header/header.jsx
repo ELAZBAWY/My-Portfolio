@@ -30,10 +30,10 @@ export default function Header() {
             Projects
           </Link>
           <Link
-            href="#Contact"
+            href="#Certificate"
             className="hover:underline hover:text-white/90 transition"
           >
-            Contact
+            Certificate
           </Link>
           <Link
             href="#experience"
@@ -42,10 +42,10 @@ export default function Header() {
             Experience
           </Link>
           <Link
-            href="#Certificate"
+            href="#Contact"
             className="hover:underline hover:text-white/90 transition"
           >
-            Certificate
+            Contact
           </Link>
         </nav>
 

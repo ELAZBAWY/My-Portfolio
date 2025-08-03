@@ -9,7 +9,7 @@ import {
   ExternalLink,
 } from "lucide-react";
 
-export default function WorkExperience() {
+export default function Experience() {
   return (
     <section id="experience" className="py-8 md:py-16 px-4 backdrop-blur-sm">
       <div className="max-w-4xl mx-auto">
@@ -24,7 +24,10 @@ export default function WorkExperience() {
         </div>
 
         {/* Experience Card */}
-        <div className="bg-white/10 backdrop-blur-sm rounded-xl md:rounded-2xl p-4 md:p-6 lg:p-8 border border-white/20 shadow-2xl  hover:scale-105 duration-300">
+        <div
+          className="bg-white/10 backdrop-blur-sm rounded-xl md:rounded-2xl p-4 md:p-6 lg:p-8 border border-white/20 shadow-2xl  duration-300"
+          data-aos="fade-right"
+        >
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 md:gap-6">
             {/* Main Info */}
             <div className="flex flex-col sm:flex-row items-start gap-4 md:gap-6">
