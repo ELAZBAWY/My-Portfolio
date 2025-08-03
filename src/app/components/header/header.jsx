@@ -67,10 +67,10 @@ export default function Header() {
           <Link href="#Projects" className="text-lg font-bold hover:underline">
             Projects
           </Link>
-          <Link href="#Projects" className="text-lg font-bold hover:underline">
+          <Link href="#Certificate" className="text-lg font-bold hover:underline">
             Certificate
           </Link>
-          <Link href="#Projects" className="text-lg font-bold hover:underline">
+          <Link href="#experience" className="text-lg font-bold hover:underline">
             Experience
           </Link>
           <Link href="#Contact" className="text-lg font-bold hover:underline">
