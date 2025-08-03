@@ -67,6 +67,12 @@ export default function Header() {
           <Link href="#Projects" className="text-lg font-bold hover:underline">
             Projects
           </Link>
+          <Link href="#Projects" className="text-lg font-bold hover:underline">
+            Certificate
+          </Link>
+          <Link href="#Projects" className="text-lg font-bold hover:underline">
+            Experience
+          </Link>
           <Link href="#Contact" className="text-lg font-bold hover:underline">
             Contact
           </Link>
