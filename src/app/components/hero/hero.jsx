@@ -70,7 +70,7 @@ export default function Hero() {
               <Github className="w-5 h-5 hover:text-black" />
             </Link>
             <Link
-              href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BThOEszh0QWitoDwQGIRl%2BQ%3D%3D"
+              href="https://www.linkedin.com/in/ahmed-alazzbaawy-58868726a/"
               target="_blank"
               rel="noopener noreferrer"
             >
